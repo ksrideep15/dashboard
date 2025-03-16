@@ -1,7 +1,11 @@
-const Homepage = () => {
-  return (
-    <div className=''>Homepage</div>
-  )
-}
+import LoginOptions from '@/components/LoginOptions';
 
-export default Homepage
+const LoginPage = () => {
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <LoginOptions />
+    </div>
+  );
+};
+
+export default LoginPage;
